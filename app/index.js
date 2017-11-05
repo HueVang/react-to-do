@@ -1,9 +1,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var {App} = require('./components/App');
 var styles= require('./styles/main.css');
+var {App} = require('./components/App');
+var {TodoList} = require('./components/TodoList');
 
 ReactDOM.render(
-  <App />,
+  <TodoList />,
   document.getElementById('container')
 );
