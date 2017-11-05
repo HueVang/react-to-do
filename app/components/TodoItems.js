@@ -1,4 +1,5 @@
 var React = require('react');
+var FlipMove = require('react-flip-move');
 
 class TodoItems extends React.Component{
   constructor(props, context) {
@@ -23,7 +24,9 @@ class TodoItems extends React.Component{
 
     return(
       <ul className="theList">
-        {listItems}
+        <FlipMove duration={250} easing="ease-out">
+          {listItems}
+        </FlipMove>
       </ul>
     );
   }

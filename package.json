@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "react-flip-move": "^2.9.17"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
