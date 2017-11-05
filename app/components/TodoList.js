@@ -1,4 +1,5 @@
 var React = require('react');
+var {TodoItems} = require('./TodoItems');
 
 class TodoList extends React.Component{
   constructor(props, context) {
@@ -37,6 +38,7 @@ class TodoList extends React.Component{
             <button type="submit">Add</button>
           </form>
         </div>
+        <TodoItems entries={this.state.items}/>
       </div>
     );
   }
